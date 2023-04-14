@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(28, 141, 141, 0.447);
+}
+
+header .login {
+  justify-content: center;
+}
+header h1 {
+  text-align: center;
+  margin: 100px 150px 50px 150px;
+}
+
+.area1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  text-align: center;
+}
+.area1 .email {
+  margin: 10px 0;
+  position: relative;
+}
+.area1 .email label {
+  display: block;
+  margin-bottom: 5px;
+}
+.area1 .email input {
+  padding: 7px 60px;
+  border-radius: 6px;
+  border: none;
+}
+.area1 .email .email-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 390px;
+}
+.area1 .email .question-mark {
+  position: absolute;
+  bottom: 7px;
+  right: 390px;
+}
+.area1 .password {
+  margin: 10px 0;
+  position: relative;
+}
+.area1 .password label {
+  display: block;
+  margin-bottom: 5px;
+}
+.area1 .password input {
+  padding: 7px 60px;
+  border-radius: 6px;
+  border: none;
+}
+.area1 .password .question-mark {
+  position: absolute;
+  bottom: 7px;
+  right: 390px;
+}
+
+.area2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.area2 .checkbox {
+  margin-right: 50px;
+}
+.area2 .checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.area2 .button {
+  display: flex;
+  margin-left: 50px;
+  width: 80px;
+  height: 30px;
+}
+.area2 .button button {
+  border-radius: 6px;
+  border: none;
+  background-color: cadetblue;
+}
+.area2 .button button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.area2 .button button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 172, 170);
+}
+
+.area3 {
+  justify-content: center;
+  display: flex;
+}
+.area3 button {
+  display: flex;
+  border-radius: 6px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: cadetblue;
+}
+.area3 button p {
+  margin: 5px 25px 5px 25px;
+  color: aliceblue;
+}
+.area3 button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 172, 170);
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

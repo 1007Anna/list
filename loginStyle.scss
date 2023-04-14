@@ -1,0 +1,137 @@
+// css reset
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(28, 141, 141, 0.447);
+}
+
+header {
+
+    .signUp {
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 100px 150px 50px 150px;
+    }
+}
+
+.area1 {
+    justify-content: center;
+    height: 150px;
+    text-align: center;
+    height: 300px;
+
+    .area1-div {
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .email {
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }    
+        
+        input {
+            padding: 7px 60px;
+            border-radius:6px;
+            border: none;
+                
+        }
+
+        .email-icon {
+            position: absolute;
+            bottom: 7px;
+            left: 390px;
+        }
+
+        .question-mark {
+            position: absolute;
+            bottom: 7px;
+            right: 390px;
+        }
+    }
+
+    .name {
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }  
+        
+        input {
+            padding: 7px 60px;
+            border-radius:6px;
+            border: none;
+        }
+
+        .question-mark {
+            position: absolute;
+            bottom: 7px;
+            right: 390px;
+        }
+
+        .user-icon {
+            position: absolute;
+            bottom: 7px;
+            left: 390px;
+        }
+    }
+
+    .password {
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }  
+        
+        input {
+            padding: 7px 60px;
+            border-radius:6px;
+            border: none;
+        }
+
+        .question-mark {
+            position: absolute;
+            bottom: 7px;
+            right: 390px;
+        }
+
+        .lock-icon {
+            position: absolute;
+            bottom: 7px;
+            left: 390px;
+        }
+    }
+}
+
+.area2 {
+    justify-content: center;
+    display: flex;
+
+    button {
+        display: flex;
+        border-radius:6px;
+        border: none;
+        width: 100px;
+        height: 30px;
+        background-color: cadetblue;
+        
+        p {
+            margin: 5px 20px 5px 20px;
+            color: aliceblue;
+        }
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(53, 172, 170);
+        color: aliceblue;
+    }
+}

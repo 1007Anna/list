@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(28, 141, 141, 0.447);
+}
+
+header .signUp {
+  justify-content: center;
+}
+header h1 {
+  text-align: center;
+  margin: 100px 150px 50px 150px;
+}
+
+.area1 {
+  justify-content: center;
+  height: 150px;
+  text-align: center;
+  height: 300px;
+}
+.area1 .area1-div {
+  margin: 10px 0;
+  position: relative;
+}
+.area1 .email label {
+  display: block;
+  margin-bottom: 5px;
+}
+.area1 .email input {
+  padding: 7px 60px;
+  border-radius: 6px;
+  border: none;
+}
+.area1 .email .email-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 390px;
+}
+.area1 .email .question-mark {
+  position: absolute;
+  bottom: 7px;
+  right: 390px;
+}
+.area1 .name label {
+  display: block;
+  margin-bottom: 5px;
+}
+.area1 .name input {
+  padding: 7px 60px;
+  border-radius: 6px;
+  border: none;
+}
+.area1 .name .question-mark {
+  position: absolute;
+  bottom: 7px;
+  right: 390px;
+}
+.area1 .name .user-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 390px;
+}
+.area1 .password label {
+  display: block;
+  margin-bottom: 5px;
+}
+.area1 .password input {
+  padding: 7px 60px;
+  border-radius: 6px;
+  border: none;
+}
+.area1 .password .question-mark {
+  position: absolute;
+  bottom: 7px;
+  right: 390px;
+}
+.area1 .password .lock-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 390px;
+}
+
+.area2 {
+  justify-content: center;
+  display: flex;
+}
+.area2 button {
+  display: flex;
+  border-radius: 6px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: cadetblue;
+}
+.area2 button p {
+  margin: 5px 20px 5px 20px;
+  color: aliceblue;
+}
+.area2 button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 172, 170);
+  color: aliceblue;
+}/*# sourceMappingURL=loginStyle.css.map */
